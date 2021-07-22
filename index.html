@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="firebase-forms.js" type="module"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    
+  </script>
+</head>
+<style>
+  .noneDisplay {
+    display: none;
+  }
+</style>
+
+<body>
+  <form id="logForm">
+    <label for="emailInput"> Wprowadz e-mail</label>
+    <input id="emailInput" name="email" type="email" required>
+
+    <label for="passwordInput">Wprowadz hasło</label>
+    <input id="passwordInput" name="pass" type="password" required>
+
+    <button id='login'>Zaloguj się</button>
+    <button id='signup'>Zarejestruj</button>
+  </form>
+
+  <button id="logOut" class="noneDisplay">Wyloguj</button>
+  <form id="writeNote" class="noneDisplay">
+    <div><label for="textNote">Notatka: </label></div>
+    <textarea id="textNote" name="textNote" placeholder="Napisz notatkę..." rows="5"></textarea>
+    <button id="btnAddNote">Zapisz notatkę</button>
+    <ul id="allNotes">
+      </ol>
+  </form>
+</body>
