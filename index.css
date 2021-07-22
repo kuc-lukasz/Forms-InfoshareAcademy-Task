@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(236, 236, 236);
+}
+#logForm {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(92, 17, 17);
+  background-color: rgb(40, 188, 207);
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 50px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  color: rgb(75, 13, 13);
+  font-size: x-large;
+  font-weight: bold;
+  width: 300px;
+  height: 400px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(75, 13, 13);
+  color: rgb(40, 188, 207);
+  font-weight: bold;
+  border-radius: 20px;
+  border: 3px solid rgb(75, 13, 13);
+  margin: auto;
+}
+.child-of-form {
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(75, 13, 13);
+  width: max-content;
+  margin-bottom: 10px;
+  margin: auto;
+}
